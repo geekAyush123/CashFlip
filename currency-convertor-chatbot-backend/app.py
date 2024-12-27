@@ -47,7 +47,7 @@ def index():
 
 def fetch_conversion(source, target):
     # Your API URL
-    url = f"https://api.currencyapi.com/v3/latest?apikey=cur_live_hDOBnfviABg2u8ZcX28otJp0GA95tx7Z834ubhWg&currencies={source},{target}"
+    url = f""
     
     try:
         response = requests.get(url)
